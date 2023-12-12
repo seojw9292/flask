@@ -1,0 +1,222 @@
+---
+id: "/subscriptions/b850d62a-25fe-4d3a-9697-ea40449528a9/resourceGroups/RG34/providers/Microsoft.Web/sites/FlaskGithubAction34"
+name: FlaskGithubAction34
+type: Microsoft.Web/sites
+kind: app,linux
+location: East US
+properties:
+  name: FlaskGithubAction34
+  state: Running
+  hostNames:
+  - flaskgithubaction34.azurewebsites.net
+  webSpace: RG34-EastUSwebspace-Linux
+  selfLink: https://waws-prod-blu-493.api.azurewebsites.windows.net:454/subscriptions/b850d62a-25fe-4d3a-9697-ea40449528a9/webspaces/RG34-EastUSwebspace-Linux/sites/FlaskGithubAction34
+  repositorySiteName: FlaskGithubAction34
+  owner:
+  usageState: 0
+  enabled: true
+  adminEnabled: true
+  afdEnabled: false
+  enabledHostNames:
+  - flaskgithubaction34.azurewebsites.net
+  - flaskgithubaction34.scm.azurewebsites.net
+  siteProperties:
+    metadata:
+    properties:
+    - name: LinuxFxVersion
+      value: PYTHON|3.8
+    - name: WindowsFxVersion
+      value:
+    appSettings:
+  availabilityState: 0
+  sslCertificates:
+  csrs: []
+  cers:
+  siteMode:
+  hostNameSslStates:
+  - name: flaskgithubaction34.azurewebsites.net
+    sslState: 0
+    ipBasedSslResult:
+    virtualIP:
+    virtualIPv6:
+    thumbprint:
+    certificateResourceId:
+    toUpdate:
+    toUpdateIpBasedSsl:
+    ipBasedSslState: 0
+    hostType: 0
+  - name: flaskgithubaction34.scm.azurewebsites.net
+    sslState: 0
+    ipBasedSslResult:
+    virtualIP:
+    virtualIPv6:
+    thumbprint:
+    certificateResourceId:
+    toUpdate:
+    toUpdateIpBasedSsl:
+    ipBasedSslState: 0
+    hostType: 1
+  computeMode:
+  serverFarm:
+  serverFarmId: "/subscriptions/b850d62a-25fe-4d3a-9697-ea40449528a9/resourceGroups/RG34/providers/Microsoft.Web/serverfarms/ASP-RG34-81da"
+  reserved: true
+  isXenon: false
+  hyperV: false
+  lastModifiedTimeUtc: '2023-12-12T01:11:02.66'
+  storageRecoveryDefaultState: Running
+  contentAvailabilityState: 0
+  runtimeAvailabilityState: 0
+  dnsConfiguration: {}
+  vnetRouteAllEnabled: false
+  containerAllocationSubnet:
+  useContainerLocalhostBindings:
+  vnetImagePullEnabled: false
+  vnetContentShareEnabled: false
+  siteConfig:
+    numberOfWorkers: 1
+    defaultDocuments:
+    netFrameworkVersion:
+    phpVersion:
+    pythonVersion:
+    nodeVersion:
+    powerShellVersion:
+    linuxFxVersion: PYTHON|3.8
+    windowsFxVersion:
+    windowsConfiguredStacks:
+    requestTracingEnabled:
+    remoteDebuggingEnabled:
+    remoteDebuggingVersion:
+    httpLoggingEnabled:
+    azureMonitorLogCategories:
+    acrUseManagedIdentityCreds: false
+    acrUserManagedIdentityID:
+    logsDirectorySizeLimit:
+    detailedErrorLoggingEnabled:
+    publishingUsername:
+    publishingPassword:
+    appSettings:
+    metadata:
+    connectionStrings:
+    machineKey:
+    handlerMappings:
+    documentRoot:
+    scmType:
+    use32BitWorkerProcess:
+    webSocketsEnabled:
+    alwaysOn: false
+    javaVersion:
+    javaContainer:
+    javaContainerVersion:
+    appCommandLine:
+    managedPipelineMode:
+    virtualApplications:
+    winAuthAdminState:
+    winAuthTenantState:
+    customAppPoolIdentityAdminState:
+    customAppPoolIdentityTenantState:
+    runtimeADUser:
+    runtimeADUserPassword:
+    loadBalancing:
+    routingRules:
+    experiments:
+    limits:
+    autoHealEnabled:
+    autoHealRules:
+    tracingOptions:
+    vnetName:
+    vnetRouteAllEnabled:
+    vnetPrivatePortsCount:
+    publicNetworkAccess:
+    cors:
+    push:
+    apiDefinition:
+    apiManagementConfig:
+    autoSwapSlotName:
+    localMySqlEnabled:
+    managedServiceIdentityId:
+    xManagedServiceIdentityId:
+    keyVaultReferenceIdentity:
+    ipSecurityRestrictions:
+    ipSecurityRestrictionsDefaultAction:
+    scmIpSecurityRestrictions:
+    scmIpSecurityRestrictionsDefaultAction:
+    scmIpSecurityRestrictionsUseMain:
+    http20Enabled: false
+    minTlsVersion:
+    minTlsCipherSuite:
+    supportedTlsCipherSuites:
+    scmMinTlsVersion:
+    ftpsState:
+    preWarmedInstanceCount:
+    functionAppScaleLimit: 0
+    elasticWebAppScaleLimit:
+    healthCheckPath:
+    fileChangeAuditEnabled:
+    functionsRuntimeScaleMonitoringEnabled:
+    websiteTimeZone:
+    minimumElasticInstanceCount: 0
+    azureStorageAccounts:
+    http20ProxyFlag:
+    sitePort:
+    antivirusScanEnabled:
+    storageType:
+    sitePrivateLinkHostEnabled:
+  daprConfig:
+  deploymentId: FlaskGithubAction34
+  slotName:
+  trafficManagerHostNames:
+  sku: Basic
+  scmSiteAlsoStopped: false
+  targetSwapSlot:
+  hostingEnvironment:
+  hostingEnvironmentProfile:
+  clientAffinityEnabled: false
+  clientCertEnabled: false
+  clientCertMode: 0
+  clientCertExclusionPaths:
+  hostNamesDisabled: false
+  ipMode: IPv4
+  vnetBackupRestoreEnabled: false
+  domainVerificationIdentifiers:
+  customDomainVerificationId: E31AD023068644381FD8F757140803B7063FBB26014AC98D914AFF0A5010FB57
+  kind: app,linux
+  managedEnvironmentId:
+  inboundIpAddress: 20.119.16.44
+  possibleInboundIpAddresses: 20.119.16.44
+  ftpUsername: FlaskGithubAction34\$FlaskGithubAction34
+  ftpsHostName: ftps://waws-prod-blu-493.ftp.azurewebsites.windows.net/site/wwwroot
+  outboundIpAddresses: 20.241.227.178,20.241.227.186,20.241.227.188,20.241.227.190,20.241.227.193,20.241.227.208,20.241.226.38,20.241.226.124,20.241.226.178,20.241.226.196,20.241.226.226,20.241.226.234,20.119.16.44
+  possibleOutboundIpAddresses: 20.241.227.178,20.241.227.186,20.241.227.188,20.241.227.190,20.241.227.193,20.241.227.208,20.241.226.38,20.241.226.124,20.241.226.178,20.241.226.196,20.241.226.226,20.241.226.234,20.241.226.239,20.241.226.157,20.241.226.241,20.241.226.253,20.241.227.19,20.241.227.31,20.241.227.58,20.241.227.89,20.241.227.120,20.241.227.128,20.241.227.139,20.241.227.153,20.241.227.178,20.241.227.186,20.241.227.188,20.241.227.190,20.241.227.193,20.241.227.208,20.241.227.231,20.241.227.249,20.241.224.83,20.241.228.0,20.241.228.14,20.241.228.34,20.119.16.44
+  containerSize: 0
+  dailyMemoryTimeQuota: 0
+  suspendedTill:
+  siteDisabledReason: 0
+  functionExecutionUnitsCache:
+  maxNumberOfWorkers:
+  homeStamp: waws-prod-blu-493
+  cloningInfo:
+  hostingEnvironmentId:
+  tags:
+  resourceGroup: RG34
+  defaultHostName: flaskgithubaction34.azurewebsites.net
+  slotSwapStatus:
+  httpsOnly: true
+  endToEndEncryptionEnabled: false
+  functionsRuntimeAdminIsolationEnabled: false
+  redundancyMode: 0
+  inProgressOperationId:
+  geoDistributions:
+  privateEndpointConnections: []
+  publicNetworkAccess: Enabled
+  buildVersion:
+  targetBuildVersion:
+  migrationState:
+  eligibleLogCategories: AppServiceAppLogs,AppServiceAuditLogs,AppServiceConsoleLogs,AppServiceHTTPLogs,AppServiceIPSecAuditLogs,AppServicePlatformLogs,ScanLogs
+  inFlightFeatures:
+  - SiteContainers
+  storageAccountRequired: false
+  virtualNetworkSubnetId:
+  keyVaultReferenceIdentity: SystemAssigned
+  defaultHostNameScope: 0
+  privateLinkIdentifiers:
+  sshEnabled:
